@@ -1,0 +1,32 @@
+.hero {
+    background: url(../img/banner_bg.png);
+    height: 100vh;
+    background-position: right;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    position: relative;
+
+    &__text-container {
+        width: 40%;
+        position: absolute;
+        top: 50%;
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        background: url(../img/banner_overlay.png);
+        background-position: right;
+        background-repeat: no-repeat;
+        height: 100%;
+        width: 100%;
+        z-index: 1;
+        left: -30rem;
+        top: 65%;
+    }
+}
+
+.sec .items {
+    border: 1px solid red;
+    margin-top: 30rem;
+}
