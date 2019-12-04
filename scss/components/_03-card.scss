@@ -1,0 +1,46 @@
+.dingo-card {
+
+    padding-bottom: 3rem;
+
+    &__text-container {
+        border: 1px solid red;
+        background: #fff;
+        border-radius: 100px 0px 623px 77px / 0px 50px 128px 58px;
+        padding: 2rem 2rem 2rem 3rem;
+    }
+
+
+    &__text-link {
+        color: #000;
+        text-decoration: none;
+        transition: all ease .3s;
+
+        &:hover {
+            text-decoration: none;
+            color: #ff6426;
+        }
+    }
+
+    &__tag-link {
+        color: #000;
+        text-decoration: none;
+        transition: all ease .3s;
+        margin-right: 2rem;
+
+        &:hover {
+            text-decoration: none;
+            color: #ff6426;
+        }
+    }
+
+    &__social-link {
+        color: #000;
+        text-decoration: none;
+        transition: all ease .3s;
+
+        &:hover {
+            text-decoration: none;
+            color: #ff6426;
+        }
+    }
+}

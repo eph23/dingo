@@ -1,0 +1,38 @@
+.menu {
+    padding: 10rem 0;
+    background: #f6f5f1;
+
+    &-card {
+        margin: 2rem 0;
+
+        @include media-breakpoint-down (md) {
+            padding: 1rem;
+            background: #fff;
+        }
+
+        &__img-container {
+            background: #fff;
+
+        }
+
+        &__img {
+
+            @include media-breakpoint-down (md) {
+                border-radius: 50%;
+            }
+        }
+
+        &__text-container {
+            display: block;
+            background: #fff;
+            padding: 2rem;
+            height: 100%;
+            width: 100%;
+
+            @include media-breakpoint-down (md) {
+                padding: 2rem 0;
+                margin-left: 0;
+            }
+        }
+    }
+}
